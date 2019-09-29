@@ -1,12 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="CustomerTestUma.Customer.Dashboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p><b> This is Customer Dashboard!! </b></p>
-     <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a runat="server" href="~/">Create </a></li>
-                <li><a runat="server" href="~/About">CustomerDetail</a></li>
-                <li><a runat="server" href="~/Contact">Contact</a></li>
-            </ul>
-    </div>
+
+    <div class="row">
+                <div class="col-sm-3"> <asp:Button ID="btnBack" runat="server" Text="Create Customer" CssClass="btn btn-primary" OnClientClick="window.location.href = 'CustomerCreate.aspx';return false;"/></div>
+                <div class="col-sm-3" style="background-color: lavenderblush;"></div>
+               
+            </div>
+
+     
 
 </asp:Content>
