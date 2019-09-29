@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customer>
+  <Customer FirstName="Shubham" LastName="Sharma" Gender="Shubham" Mobile="Sharma" Email="Shubham" State="Sharma" City="Sharma" />
+  <Customer FirstName="Shubham" LastName="Sharma" Gender="Shubham" Mobile="Sharma" Email="Shubham" State="Sharma" City="Sharma" />
+  <Customer FirstName="Shubham" LastName="Sharma" Gender="Shubham" Mobile="Sharma" Email="Shubham" State="Sharma" City="Sharma" />
+  <Customer FirstName="Uma " LastName="Sharma" Gender="Shubham" Mobile="Sharma" Email="Shubham" State="Sharma" City="Sharma" />
+  <Customer FirstName="uma" LastName="Sanodiya" Gender="Shubham" Mobile="9923123145" Email="umasanodiya@123.gmail.com" State="Maharastra" City="Pune" />
+  <Customer FirstName="Uma" LastName="Sanodiya" Gender="Female" Mobile="4354444444444" Email="hjhas@gmail.com" State="pune" City="mh" />
+  <Customer FirstName="" LastName="" Gender="" Mobile="2424" Email="" State="" City="" />
+  <Customer FirstName="" LastName="" Gender="" Mobile="1313141413414123" Email="" State="" City="" />
+  <Customer FirstName="BABY" LastName="Sharma" Gender="Male" Mobile="9923123178" Email="baby@gmail.com" State="MH" City="Pune" />
+</Customer>
