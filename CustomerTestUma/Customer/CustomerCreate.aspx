@@ -8,8 +8,13 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <title>Create Customer</title>
+   <title>Create Customer</title>
+     <script type="text/javascript">
+        function redirect() {
+            debugger;
+            window.location.href = "dashboard.aspx";
+        }
+ </script>
 </head>
 <body>
     <div class="col-sm-3"></div>
@@ -116,14 +121,14 @@
             </div>
             <br>
             <br>
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6" style="background-color: lavenderblush;"></div>
-                <div class="col-sm-3"> <asp:Button id="btnSubmit" Text="Submit" runat="server" onclick="btnSubmit_Click" CssClass="btn btn-primary"/></div>
-            </div>
-            <br>
-            <br>
+            <div>
+                        
+                 <asp:Button id="btnSubmit"  style='margin-right:16px' Text="Submit" runat="server" onclick="btnSubmit_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="btnBack" runat="server" style='margin-right:16px' Text="Back" CssClass="btn btn-primary" OnClientClick="redirect();return false;"/></div>
+           
 
+            <br>
+            <br>
         </form>
     </div>
 </body>
